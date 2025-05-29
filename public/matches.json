@@ -1,0 +1,51 @@
+ [
+  {
+    "date": "Jun 01, Sun",
+    "details": "Manchester United vs Liverpool\nOld Trafford, Manchester",
+    "result": "Upcoming",
+    "time": "6:00 PM",
+    "gmt": "01:00 PM GMT / 06:00 PM LOCAL"
+  },
+  {
+    "date": "Jun 02, Mon",
+    "details": "Real Madrid vs Barcelona\nSantiago Bernabéu, Madrid",
+    "result": "Upcoming",
+    "time": "8:30 PM",
+    "gmt": "07:30 PM GMT / 08:30 PM LOCAL"
+  },
+  {
+    "date": "Jun 03, Tue",
+    "details": "Bayern Munich vs Borussia Dortmund\nAllianz Arena, Munich",
+    "result": "Upcoming",
+    "time": "7:45 PM",
+    "gmt": "06:45 PM GMT / 07:45 PM LOCAL"
+  },
+  {
+    "date": "Jun 04, Wed",
+    "details": "Juventus vs AC Milan\nAllianz Stadium, Turin",
+    "result": "Upcoming",
+    "time": "9:00 PM",
+    "gmt": "08:00 PM GMT / 09:00 PM LOCAL"
+  },
+  {
+    "date": "Jun 05, Thu",
+    "details": "Paris Saint-Germain vs Lyon\nParc des Princes, Paris",
+    "result": "Upcoming",
+    "time": "7:00 PM",
+    "gmt": "05:00 PM GMT / 07:00 PM LOCAL"
+  },
+  {
+    "date": "Jun 06, Fri",
+    "details": "Chelsea vs Arsenal\nStamford Bridge, London",
+    "result": "Upcoming",
+    "time": "8:00 PM",
+    "gmt": "07:00 PM GMT / 08:00 PM LOCAL"
+  },
+  {
+    "date": "Jun 07, Sat",
+    "details": "Inter Milan vs Napoli\nSan Siro, Milan",
+    "result": "Upcoming",
+    "time": "6:30 PM",
+    "gmt": "05:30 PM GMT / 06:30 PM LOCAL"
+  }
+]
