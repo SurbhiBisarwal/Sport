@@ -30,78 +30,31 @@ function App() {
         >
           <thead>
             <tr style={{ background: "#eee" }}>
-              <th
-                style={{
-                  padding: "8px",
-                  border: "1px solid #ddd",
-                  width: "120px",
-                }}
-              >
-                Date
-              </th>
-              <th style={{ padding: "8px", border: "1px solid #ddd" }}>
-                Match Details
-              </th>
-              <th
-                style={{
-                  padding: "8px",
-                  border: "1px solid #ddd",
-                  width: "120px",
-                }}
-              >
-                Time
-              </th>
+              <th style={{ padding: "8px", border: "1px solid #ddd", width: "120px" }}>Date</th>
+              <th style={{ padding: "8px", border: "1px solid #ddd" }}>Match Details</th>
+              <th style={{ padding: "8px", border: "1px solid #ddd", width: "120px" }}>Time</th>
             </tr>
           </thead>
           <tbody>
             {loading ? (
               <tr>
-                <td
-                  colSpan={3}
-                  style={{ textAlign: "center", padding: "16px" }}
-                >
-                  Loading...
-                </td>
+                <td colSpan={3} style={{ textAlign: "center", padding: "16px" }}>Loading...</td>
               </tr>
             ) : (
               matches.map((match, idx) => (
                 <tr key={idx}>
-                  <td
-                    style={{
-                      padding: "8px",
-                      border: "1px solid #ddd",
-                      verticalAlign: "top",
-                    }}
-                  >
-                    {match.date}
-                  </td>
-                  <td
-                    style={{
-                      padding: "8px",
-                      border: "1px solid #ddd",
-                      verticalAlign: "top",
-                    }}
-                  >
+                  <td style={{ padding: "8px", border: "1px solid #ddd", verticalAlign: "top" }}>{match.date}</td>
+                  <td style={{ padding: "8px", border: "1px solid #ddd", verticalAlign: "top" }}>
                     <div>
                       {match.details.split("\n").map((line, i) => (
                         <div key={i}>{line}</div>
                       ))}
                     </div>
-                    <div style={{ color: "#1976d2", marginTop: "4px" }}>
-                      {match.result}
-                    </div>
+                    <div style={{ color: "#1976d2", marginTop: "4px" }}>{match.result}</div>
                   </td>
-                  <td
-                    style={{
-                      padding: "8px",
-                      border: "1px solid #ddd",
-                      verticalAlign: "top",
-                    }}
-                  >
+                  <td style={{ padding: "8px", border: "1px solid #ddd", verticalAlign: "top" }}>
                     <div>{match.time}</div>
-                    <div style={{ color: "#888", fontSize: "12px" }}>
-                      {match.gmt}
-                    </div>
+                    <div style={{ color: "#888", fontSize: "12px" }}>{match.gmt}</div>
                   </td>
                 </tr>
               ))
