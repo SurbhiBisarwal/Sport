@@ -1,6 +1,59 @@
-.App {
+.container {
   display: flex;
-  height: auto;
-  width: auto;
+  justify-content: center;
   border: 1px solid black;
+  background-color: #dadde0;
+
+}
+.App {
+  width: 100%;
+  padding: 24px;
+  max-width: 980px;
+  background: #fafafa;
+}
+
+.heading {
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.matches-table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+.matches-table th,
+.matches-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.matches-table th {
+  background: #e2d6d6;
+}
+
+.match-details {
+  text-align: center;
+  vertical-align: top;
+}
+
+.match-date,
+.match-time {
+  vertical-align: top;
+}
+
+.match-result {
+  color: #1976d2;
+  margin-top: 4px;
+}
+
+.match-gmt {
+  color: #888;
+  font-size: 12px;
+}
+
+.loading-row td {
+  text-align: center;
+  padding: 16px;
 }
